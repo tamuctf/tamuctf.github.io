@@ -53,7 +53,9 @@ html{
 }
 
 center{
-    margin-top: 15vmin !important;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .logo{
