@@ -28,6 +28,13 @@ p,br{
   font-size: 7vmin;
   line-height: 7vmin;
 }
+
+.flip u1{
+  padding-right:0vmin !important;
+  padding-left:0vmin !important;
+  padding: 0vmin !important;
+}
+
 h3{
   font-size: 2.5vmin;
   line-height: 0.75vmin;
@@ -42,7 +49,7 @@ html{
   background-size: auto 26vw, auto 26vw !important;
   background-repeat: no-repeat, no-repeat;
   background-attachment: fixed, fixed;
-  background-color: rgba(80,0,0, 0.05);
+  background-color: rgba(80,0,0, 0.02);
 }
 
 center{
@@ -53,13 +60,20 @@ center{
   text-align: center !important;
   display: inline-block;
   position: relative;
-  width: 95vmin !important;
+  width: 90vmin !important;
+  left:-0.5vmin;
+  padding-left: 0vmin !important;
+  padding-right: 0vmin !important;
 }
 
 .flip-clock-wrapper  {
   position: fixed;
-  padding-left: 6vmin;
-  width: 95vmin !important;
+  display: inline-block;
+  text-align: center !important;
+  /* padding-left: 6vmin; */
+  margin:auto !important;
+  left:5vmin;
+  width: 90vmin !important;
 }
 
 .flip-clock-wrapper * {
@@ -116,22 +130,25 @@ center{
 .flip-clock-wrapper ul {
   position: relative;
   float: left;
-  margin: 0.625vmin;
-  width: 7.5vmin;
+  /* margin: 0.8vmin; */
+  margin: 0.8vmin;
+  /* width: 7.54286vmin; */
+  width: 4vmin !important;
   height: 11vmin;
   font-size: 9.75vmin;
   font-weight: bold;
   line-height: 5.25vmin;
   border-radius: 0.75vmin;
   background: #000;
+  padding-right:0vmin !important;
 }
 .flip-clock-wrapper ul li {
   z-index: 1;
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  width: 7.3371vmin;
+  height: 11vmin;
   line-height: 10.3125vmin;
   text-decoration: none !important;
 }
@@ -139,7 +156,7 @@ center{
   z-index: 2; }
 .flip-clock-wrapper ul li a {
   display: block;
-  height: 100%;
+  height: 11vmin;
   -webkit-perspective: 48.89vmin;
   -moz-perspective: 48.89vmin;
   perspective: 48.89vmin;
@@ -150,15 +167,15 @@ center{
   z-index: 1;
   position: absolute;
   left: 0;
-  width: 100%;
-  height: 50%;
+  height: 5.5vmin;
+  width: 7.3371vmin;
   font-size: 9.75vmin;
   overflow: hidden;
   outline: 0.125vmin solid transparent; }
 .flip-clock-wrapper ul li a div .shadow {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 7.3371vmin;
+  height: 11vmin;
   z-index: 2; }
 .flip-clock-wrapper ul li a div.up {
   -webkit-transform-origin: 50% 100%;
@@ -173,7 +190,7 @@ center{
   top: 5.375vmin;
   left: 0;
   z-index: 5;
-  width: 100%;
+  width: 7.3371vmin;
   height: 0.5vmin;
   background-color: #80000;
   background-color: rgba(80, 0, 0, 0.4); }
@@ -191,8 +208,10 @@ center{
   position: absolute;
   left: 0;
   z-index: 1;
-  width: 100%;
-  height: 200%;
+  /* width: 100%; */
+  width: 7.3371vmin;
+  height: 11vmin;
+  /* height: 200%; */
   color: #C26D6E;
   text-shadow: 0 0.125vmin 0.25vmin #000;
   text-align: center;
@@ -205,7 +224,12 @@ center{
   bottom: 0; }
 .flip-clock-wrapper ul.play li.flip-clock-before {
   z-index: 3; }
-.flip-clock-wrapper .flip {   box-shadow: 0 0.5vmin 0.625vmin rgba(80, 0, 0, 0.7); }
+.flip-clock-wrapper .flip {
+    box-shadow: 0 0.5vmin 0.225vmin rgba(80, 0, 0, 0.7);
+    width: 0vmin !important;
+    padding: 7.3371vmin;
+    padding-bottom: 0vmin;
+    }
 .flip-clock-wrapper ul.play li.flip-clock-active {
   -webkit-animation: asd 0.5s 0.5s linear both;
   -moz-animation: asd 0.5s 0.5s linear both;
@@ -226,8 +250,8 @@ center{
   width: 1.25vmin;
   height: 1.25vmin;
   position: absolute;
-  border-radius: 50%;
-  box-shadow: 0 0 2.5vmin rgba(125, 200, 125,1.0);
+  border-radius: 0.625vmin;
+  box-shadow: 0 0 1.25vmin rgba(125, 200, 125,1.0);
   left: 0.625vmin; }
 .flip-clock-divider .flip-clock-label {
   position: absolute;
