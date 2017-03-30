@@ -38,6 +38,38 @@ p,br{
 h3{
   font-size: 2.5vmin;
   line-height: 0.75vmin;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 0.0625vmin;
+  -webkit-text-stroke-color: rgba(251,249,249, 0.275);
+}
+h2{
+  font-size: 6vmin;
+  line-height: 3vmin;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 0.0625vmin;
+  -webkit-text-stroke-color: rgba(251,249,249, 0.275);
+}
+h1{
+  font-size: 8vmin;
+  /* line-height: 3vmin; */
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 0.0625vmin;
+  -webkit-text-stroke-color: rgba(251,249,249, 0.275);
+}
+h4{
+  font-size: 3vmin;
+  /* line-height: 3vmin; */
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 0.0625vmin;
+  -webkit-text-stroke-color: rgba(251,249,249, 0.275);
+  max-width: 60vw;
+}
+h5{
+  font-size: 5vmin;
+  /* line-height: 0.7vmin; */
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 0.0625vmin;
+  -webkit-text-stroke-color: rgba(251,249,249, 0.275);
 }
 a:link {color: rgba(150,100,100,0.9);}
 a:visited {color: rgba(80,0,0,0.7);}
@@ -56,6 +88,12 @@ center{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.center1{
+    position: relative;
+    top: 50%;
+    transform: translateY(-8%);
 }
 
 .logo{
