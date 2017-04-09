@@ -71,29 +71,80 @@ h5{
   -webkit-text-stroke-width: 0.0625vmin;
   -webkit-text-stroke-color: rgba(251,249,249, 0.275);
 }
-a:link {color: rgba(150,100,100,0.9);}
-a:visited {color: rgba(80,0,0,0.7);}
-a:hover {color: rgba(75,150,75,0.9);}
-a:active {color: rgba(75,75,150,0.9);}
+
+span{
+    background-color: rgba(251, 249, 249,0.75);
+}
+
+a:link {color: rgba(25,25,125,0.9);}
+a:visited {color: rgba(25,25,125,0.7);}
+a:hover {color: rgba(25,25,125,0.9);}
+a:active {color: rgba(25,25,125,0.9);}
 html{
   background-image: url('../front_files/top.png'), url('../front_files/bottom.png');
-  background-position: 0px -5vmin,center bottom;
+  background-position: center -5vmin,center bottom;
   background-size: auto 26vw, auto 26vw !important;
   background-repeat: no-repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-color: rgba(80,0,0, 0.02);
 }
 
-center{
+.center1{
+    position: relative;
+    top: 25%;
+    transform: translateY(-8%);
+    width:110%;
+    left:-1vw;
+    right:-1vw;
+    /* background-image: url('../front_files/top.png'), url('../front_files/bottom.png'); */
+    /* background-position: center 0vmin,center bottom; */
+    /* background-size: auto 26vw, auto 26vw !important; */
+    /* background-repeat: no-repeat, no-repeat; */
+    /* background-attachment: fixed, fixed;  */
+    /* background-color: rgba(80,0,0, 0.02); */
+}
+
+.center3{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.center1{
+.center2{
     position: relative;
-    top: 50%;
-    transform: translateY(-8%);
+    top: 46.5%;
+    transform: translateY(-50%);
+    width: 110%;
+    left:-1vw;
+    right:-1vw;
+}
+
+table, td, th {
+    border: 0.4vmin solid black;
+    font-size: 3.5vmin;
+    line-height: 3vmin;
+    text-align: center !important;
+}
+
+table {
+    border-collapse: collapse;
+    width: calc(100% - 20vw);
+    max-width: 700px;
+}
+
+td {
+    height: 20%;
+    vertical-align: center;
+    text-align: center !important;
+}
+
+#discord-widget{
+    width: 300px;
+    height: 75px;
+    postition: absolute;
+    z-index: 10;
+    padding-left: 5vw;
+    top: 4vh !important;
 }
 
 .logo{
