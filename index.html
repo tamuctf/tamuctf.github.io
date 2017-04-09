@@ -19,13 +19,13 @@
     </style>
     </head>
 <body>
-    <div id="discord-widget" allowtransparency="true" frameborder="0">
+    <div id="discord-widget" class="discord" allowtransparency="true" frameborder="0">
         <div class="widget widget-theme-dark" data-reactid=".0">
             <div class="widget-header" data-reactid=".0.0">
                 <a class="widget-logo" href="https://discordapp.com?utm_source=Discord%20Widget&amp;utm_medium=Logo" target="_blank" data-reactid=".0.0.0"></a>
-                <span class="widget-header-count" data-reactid=".0.0.1"></span>
+                <span class="widget-header-count widget" data-reactid=".0.0.1"></span>
                 <span>
-                    <a class="widget-btn-connect" href="https://discord.gg/gYPXmuf" data-reactid=".0.2.1">Connect</a>
+                    <a class="widget-btn-connect discord" href="https://discord.gg/gYPXmuf" data-reactid=".0.2.1" style="background-color: rgba(115, 139, 215, 0.5);">Connect</a>
                 </span>
             </div>
         </div>
@@ -53,11 +53,11 @@
         <p>Prizes include:</p>
         <table style="-webkit-text-fill-color: black !important;text-decoration: none !important;">
             <style>
-                a:link {color: rgba(0,0,0,1);}
-                a:visited {color: rgba(0,0,0,1);}
-                a:hover {color: rgba(0,0,0,1);}
-                a:active {color: rgba(0,0,0,1);}
-                a{text-decoration: none !important;}
+                a:not(.discord):link {color: rgba(0,0,0,1);}
+                a:not(.discord):visited {color: rgba(0,0,0,1);}
+                a:not(.discord):hover {color: rgba(0,0,0,1);}
+                a:not(.discord):active {color: rgba(0,0,0,1);}
+                a:not(.discord){text-decoration: none !important;}
                 td,th{
                     padding-left:1vmin;
                     padding-right:1vmin;
