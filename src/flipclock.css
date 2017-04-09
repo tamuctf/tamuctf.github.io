@@ -93,7 +93,7 @@ html{
     position: relative;
     top: 25%;
     transform: translateY(-8%);
-    width:110%;
+    width:98vw !important;
     left:-1vw;
     right:-1vw;
     /* background-image: url('../front_files/top.png'), url('../front_files/bottom.png'); */
@@ -108,13 +108,14 @@ html{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    width: 100vw !important;
 }
 
 .center2{
     position: relative;
     top: 46.5%;
     transform: translateY(-50%);
-    width: 110%;
+    width: 98vw !important;
     left:-1vw;
     right:-1vw;
 }
