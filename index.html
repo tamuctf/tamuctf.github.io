@@ -1,3 +1,10 @@
+<!--
+    Page source for TAMUctf
+    Name:   index.html
+    Course: CSCE 491
+    Prof:   Dr. Daniel Ragsdale
+-->
+
 <html>
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -30,25 +37,27 @@
             </div>
         </div>
     </div>
+
     <center class="center1">
-    
-    <img src="front_files/logo.png" class="logo">
-    <h3>Please join us at this year's kickoff in <a href="https://encrypted.google.com/maps/dir//Harrington+Education+Center+Office+Tower,+540+Ross+St,+College+Station,+TX+77843/@30.6163595,-96.3410066,19z/data=!4m16!1m7!3m6!1s0x8646839774b0d1ef:0x1e7196a483b41d5b!2sHarrington+Education+Center+Office+Tower,+540+Ross+St,+College+Station,+TX+77843!3b1!8m2!3d30.616565!4d-96.340866!4m7!1m0!1m5!1m1!1s0x8646839774b0d1ef:0x1e7196a483b41d5b!2m2!1d-96.340866!2d30.616565">Harrington Tower 616</a> at 7pm on April 12<sup>th</sup></h3>
-    <p>The competition begins in:</p>
-    <div class="clock" align="center" ></div>
-    <script type="text/javascript">
-        var clock;
-        $(document).ready(function() {
-            var currentDate = new Date();
-            var futureDate  = new Date(currentDate.getFullYear(), 3, 12, 19);
-            var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-            clock = $('.clock').FlipClock(diff, {
-                clockFace: 'DailyCounter',
-                countdown: true
+        <img src="front_files/logo.png" class="logo">
+        <h3>Please join us at this year's kickoff in <a href="https://encrypted.google.com/maps/dir//Harrington+Education+Center+Office+Tower,+540+Ross+St,+College+Station,+TX+77843/@30.6163595,-96.3410066,19z/data=!4m16!1m7!3m6!1s0x8646839774b0d1ef:0x1e7196a483b41d5b!2sHarrington+Education+Center+Office+Tower,+540+Ross+St,+College+Station,+TX+77843!3b1!8m2!3d30.616565!4d-96.340866!4m7!1m0!1m5!1m1!1s0x8646839774b0d1ef:0x1e7196a483b41d5b!2m2!1d-96.340866!2d30.616565">Harrington Tower 616</a> at 7pm on April 12<sup>th</sup></h3>
+        <p>The competition begins in:</p>
+        <div class="clock" align="center" ></div>
+        <script type="text/javascript">
+            var clock;
+            $(document).ready(function() {
+                var currentDate = new Date();
+                var futureDate  = new Date(currentDate.getFullYear(), 3, 12, 19);
+                var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+                clock = $('.clock').FlipClock(diff, {
+                    clockFace: 'DailyCounter',
+                    countdown: true
+                });
             });
-        });
-    </script>
+        </script>
     </center>
+
+    <!-- Mozilla FF doesn't play nicely with the bottom of the clock object -->
     <center class="center2">
         <p>Prizes include:</p>
         <table style="-webkit-text-fill-color: black !important;text-decoration: none !important;">

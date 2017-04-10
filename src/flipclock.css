@@ -1,3 +1,10 @@
+/*
+  Page source for TAMUctf CSS style guide
+  Name:   flipclock.css
+  Course: CSCE 491
+  Prof: Dr. Daniel Ragsdale
+*/
+
 @font-face {
   font-family: 'HACKED';
   font-style: normal;
@@ -91,7 +98,7 @@ html{
 
 .center1{
     position: relative;
-    top: 25%;
+    margin-top: 10%;
     transform: translateY(-8%);
     width:98vw !important;
     left:-1vw;
@@ -104,20 +111,20 @@ html{
     /* background-color: rgba(80,0,0, 0.02); */
 }
 
-.center3{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100vw !important;
-}
-
 .center2{
     position: relative;
-    top: 46.5%;
+    margin-top: 20%;
     transform: translateY(-50%);
     width: 98vw !important;
     left:-1vw;
     right:-1vw;
+}
+
+.center3{
+    position: relative;
+    margin-top: 16%;
+    transform: translateY(-50%);
+    width: 100vw !important;
 }
 
 table, td, th {
